@@ -7,9 +7,9 @@ namespace Dirmap {
     /// </summary>
     public sealed class Options {
         [Option('t', "target", Required = false, HelpText = "Set target directory.")] 
-        public string Target { get; set; }
+        public string Target { get; set; } = "./";
         
         [Option('d', "depth", Required = false, HelpText = "Set tree depth.")]
-        public int Depth { get; set; }
+        public int Depth { get; set; } = 3;
     }
 }
