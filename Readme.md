@@ -12,3 +12,33 @@
 
 ## Description
 Basic command line interface (CLI) for displaying a tree of the files and directories on the specified directory.
+
+## Build
+To build the project you will need dotnet installed on your computer, then type the following lines on your preferred terminal
+```console
+augus99@home:~/Desktop $ git clone https://github.com/augus99/dirmap.git
+augus99@home:~/Desktop $ cd dirmap
+augus99@home:~/Desktop/dirmap $ dotnet build
+```
+
+## Run
+To run this project simply run this command
+```console
+augus99@home:~/Desktop/dirmap $ dotnet run
+```
+
+## Options
+This application provides 2 optionals arguments
+
+| Syntax           | Description                 |
+| ---------------- | --------------------------- |
+| `-t`, `--target` | Set target directory.       |
+| `-d`, `--depth`  | Set tree depth.             |
+
+## Examples
+
+```console
+augus99@home:~/Desktop/dirmap $ dotnet run --target ./bin
+augus99@home:~/Desktop/dirmap $ dotnet run --depth 1
+augus99@home:~/Desktop/dirmap $ dotnet run --target ./bin --depth 1
+```
