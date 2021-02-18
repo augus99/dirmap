@@ -11,7 +11,7 @@
 </p>
 
 ## Description
-Basic command line interface (CLI) for displaying a tree of the files and directories on the specified directory.
+Basic command line interface (CLI) for displaying a tree containing all files and directories of the specified directory.
 
 ## Build
 To build the project you will need dotnet installed on your computer, then type the following lines on your preferred terminal
