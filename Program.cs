@@ -10,6 +10,8 @@ namespace Dirmap {
                 else if(o.Depth <= 0) Exit("Depth value cannot be less nor equal to zero.");
                 else {
                     // Safe to do the actual stuff
+                    var root = Dirtree.From(o.Target, o.Depth);
+                    Console.WriteLine(root.ToString());
                 }
             });
         }
