@@ -30,10 +30,10 @@ augus99@home:~/Desktop/dirmap $ dotnet run
 ## Options
 This application provides 2 optionals arguments
 
-| Syntax           | Description                 |
-| ---------------- | --------------------------- |
-| <kbd>-t</kbd> <kbd>--target</kbd> | Set target directory.       |
-| <kbd>-d</kbd> <kbd>--depth</kbd>  | Set tree depth.             |
+| Option           | Description                 | Default Value |
+| ---------------- | --------------------------- | --------- |
+| <kbd>-t</kbd> <kbd>--target</kbd> | Set target directory.       | `./` |
+| <kbd>-d</kbd> <kbd>--depth</kbd>  | Set tree depth.             | `3` |
 
 ## Examples
 
