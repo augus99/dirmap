@@ -32,8 +32,8 @@ This application provides 2 optionals arguments
 
 | Syntax           | Description                 |
 | ---------------- | --------------------------- |
-| `-t`, `--target` | Set target directory.       |
-| `-d`, `--depth`  | Set tree depth.             |
+| <kbd>-t</kbd> <kbd>--target</kbd> | Set target directory.       |
+| <kbd>-d</kbd> <kbd>--depth</kbd>  | Set tree depth.             |
 
 ## Examples
 
